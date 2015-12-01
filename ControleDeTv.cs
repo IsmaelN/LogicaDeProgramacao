@@ -10,11 +10,13 @@ public class teste : MonoBehaviour
 
 	//0 = Desliga.
 	//1 = Ligada.
+
 	void Start()
 	{
 		//Valor inicial da variavel(Ligada).
 		iNumero = 1;
 	}
+
 	void Update()
 	{
 		Debug.Log (iNumero);
@@ -46,10 +48,6 @@ public class teste : MonoBehaviour
 			tSaida.GetComponent<Text>().text = "Desligado";
 		}
 
-
 	}
-
-
-
 
 }
