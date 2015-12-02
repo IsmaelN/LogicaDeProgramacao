@@ -8,6 +8,7 @@ public class teste : MonoBehaviour
 	public 	Button 		btn;
 	public 	Text 		tSaida;
 	public 	AudioSource	musicaDeFundo;
+			bool		tocando; 	
 	//0 = Desliga <> 1 = Ligada.
 
 
@@ -21,6 +22,16 @@ public class teste : MonoBehaviour
 	{
 		Verificando ();
 		Debug.Log (iNumero);
+		//Verificando se a musica esta ligada ou desligada.
+		if (musicaDeFundo.enabled == true) 
+		{
+			musicaDeFundo.playOnAwake = true;
+			Debug.Log ("musica ligada");
+		} 
+		else 
+		{
+			Debug.Log("musica desligada");
+		}
 	}
 
 	public void LigarDesliga()
