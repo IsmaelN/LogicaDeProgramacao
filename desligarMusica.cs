@@ -21,16 +21,14 @@ public class teste : MonoBehaviour
 	void Update()
 	{
 		Verificando ();
-		Debug.Log (iNumero);
 		//Verificando se a musica esta ligada ou desligada.
 		if (musicaDeFundo.enabled == true) 
 		{
-			musicaDeFundo.playOnAwake = true;
-			Debug.Log ("musica ligada");
+			Debug.Log (iNumero.ToString()+ " musica ligada");
 		} 
 		else 
 		{
-			Debug.Log("musica desligada");
+			Debug.Log(iNumero.ToString()+ " musica desligada");
 		}
 	}
 
