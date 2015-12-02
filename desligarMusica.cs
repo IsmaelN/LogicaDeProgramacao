@@ -13,8 +13,8 @@ public class teste : MonoBehaviour
 
 	void Start()
 	{
-		//Valor inicial da variavel(Ligada).
-		iNumero = 0;
+		//Valor inicial da variavel.
+		iNumero = PlayerPrefs.GetInt("efeitosSonoros");
 	}
 
 	void Update()
