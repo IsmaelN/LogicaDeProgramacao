@@ -8,7 +8,6 @@ public class teste : MonoBehaviour
 	public 	Button 		btn;
 	public 	Text 		tSaida;
 	public 	AudioSource	musicaDeFundo;
-			bool		tocando; 	
 	//0 = Desliga <> 1 = Ligada.
 
 
